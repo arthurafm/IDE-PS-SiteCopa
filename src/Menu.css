@@ -1,0 +1,23 @@
+.Menu {
+    background-color: #20195F;
+    width: auto;
+    height: 42px;
+    margin-top: 0;
+    display: flex;
+}
+
+.Menu--options {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    font-family: Poppins;
+    font-size: 16px;
+    color: #F7F5F2;
+    align-items: center;
+    text-align: center;
+}
+
+.Menu--options > li {
+    padding: 10%;
+}
+
