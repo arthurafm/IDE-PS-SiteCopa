@@ -30,3 +30,10 @@
     padding: 10%;
 }
 
+/*  <a> contendo links para acesso de navegação
+*/
+
+.Menu--options > li > a {
+    color:#F7F5F2;
+    text-decoration: none;
+}
