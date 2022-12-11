@@ -1,3 +1,6 @@
+/* <nav> do Menu de navegação
+    Setando cores, largura, altura, margem e formato de visualização
+*/
 .Menu {
     background-color: #20195F;
     width: auto;
@@ -6,6 +9,9 @@
     display: flex;
 }
 
+/*  <ul> do Menu de navegação
+    Setando formato de visualização, largura, tipo de lista, fonte, cor e alinhamento
+*/
 .Menu--options {
     display: flex;
     width: 100%;
@@ -17,6 +23,9 @@
     text-align: center;
 }
 
+/*  <li> particulares do <ul> do Menu de navegação
+    Setando espaçamento
+*/
 .Menu--options > li {
     padding: 10%;
 }

@@ -1,5 +1,6 @@
 import './Menu.css'
 
+// Função Menu de navegação em formato de "unordered list" 
 function Menu() {
     return (
         <nav className="Menu">
