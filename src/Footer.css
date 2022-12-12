@@ -1,3 +1,6 @@
+/*  <footer> do Rodapé
+    Setando largura, formato de visualização, alinhamento de itens, altura e cor de fundo
+*/
 .Footer {
     width: 100%;
     display: flex;
@@ -6,10 +9,18 @@
     background-color: #092159;
 }
 
+/*  <small> próximo ao logo da CBF
+    Setando margem-esquerda e largura
+*/
+
 .Footer--text {
     margin-left: 2%;
     width: 50%;
 }
+
+/*  <small> de forma geral
+    Setando cor, fonte, peso de fonte e tamanho de fonte
+*/
 
 small {
     color: #FFFFFF;
@@ -18,16 +29,28 @@ small {
     font-size: 12px;
 }
 
+/*  Bloco <div> a direita do Rodapé
+    Setando margem-esquerda e margem-direita
+*/
+
 .Footer--RightSide {
     margin-left: auto;
     margin-right: 5%;
 }
+
+/*  Logo da CBF
+    Setando altura, largura e margem-esquerda
+*/
 
 .CBF--logo {
     height: 67px;
     width: 41px;
     margin-left: 4%;
 }
+
+/*  Logo da IDE
+    Setando altura, largura e margem-direita
+*/
 
 .IDE--logo {
     height: 49px;
