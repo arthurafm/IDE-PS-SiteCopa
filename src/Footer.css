@@ -1,0 +1,36 @@
+.Footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 112px;
+    background-color: #092159;
+}
+
+.Footer--text {
+    margin-left: 2%;
+    width: 50%;
+}
+
+small {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.Footer--RightSide {
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+.CBF--logo {
+    height: 67px;
+    width: 41px;
+    margin-left: 4%;
+}
+
+.IDE--logo {
+    height: 49px;
+    width: 66px;
+    margin-right: 5%;
+}

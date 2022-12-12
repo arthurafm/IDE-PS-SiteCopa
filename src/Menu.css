@@ -14,6 +14,7 @@
 */
 .Menu--options {
     display: flex;
+    justify-content: space-between;
     width: 100%;
     list-style-type: none;
     font-family: Poppins;
@@ -28,6 +29,7 @@
 */
 .Menu--options > li {
     padding: 10%;
+
 }
 
 /*  <a> contendo links para acesso de navegação
