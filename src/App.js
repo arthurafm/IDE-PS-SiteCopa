@@ -1,10 +1,21 @@
 import './App.css';
 import Menu from './Menu'
-
+import Cover from './Cover'
+import About from './About'
+import PlayerList from './PlayerList'
+import NextGames from './NextGames'
+import Footer from './Footer'
 
 function App() {
   return (
-    <Menu />
+    <div>
+      <Menu />
+      <Cover />
+      <About />
+      <PlayerList />
+      <NextGames />
+      <Footer />
+    </div>
   );
 }
 
