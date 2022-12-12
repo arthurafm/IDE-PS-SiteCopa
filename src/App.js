@@ -9,11 +9,11 @@ import Footer from './Footer'
 function App() {
   return (
     <div>
-      <Menu />
+      <Menu id="id--Home" />
       <Cover />
-      <About />
-      <PlayerList />
-      <NextGames />
+      <About id="id--About" />
+      <PlayerList id="id--Players" />
+      <NextGames id="id--Games" />
       <Footer />
     </div>
   );
