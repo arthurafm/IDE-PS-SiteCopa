@@ -42,7 +42,7 @@ small {
     Setando altura, largura e margem-esquerda
 */
 
-.CBF--logo {
+.Footer--CBF--logo {
     height: 67px;
     width: 41px;
     margin-left: 4%;
@@ -52,7 +52,7 @@ small {
     Setando altura, largura e margem-direita
 */
 
-.IDE--logo {
+.Footer--IDE--logo {
     height: 49px;
     width: 66px;
     margin-right: 5%;
