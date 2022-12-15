@@ -1,0 +1,34 @@
+/* Style da div para o background e seu tamanho 
+*/
+.Cover {
+    display: flex;
+    background-image: url('./images/canarinho-background.png');
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Style do texto que sobrepõe a imagem 
+*/
+.CoverTitle {
+    font-size: 5rem;
+    color: aliceblue;
+    text-align: left;
+    margin-left: 5%;
+    word-break: normal;
+    position: absolute;
+    top: 85%;
+    height: 100%;
+    margin-top: 0;
+    font-family: Poppins;
+    line-height: 12vh;
+}
+
+/* Filtro / Gradiente aplicado a Div  
+*/
+.Cover::after { 
+    content: "";
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(32, 25, 95, 0), rgba(32, 25, 95, 0.1), rgba(32, 25, 95, 0.2), rgba(32, 25, 95, 1) );
+}

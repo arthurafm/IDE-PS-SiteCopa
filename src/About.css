@@ -1,0 +1,88 @@
+/* Aplica fonte e text justify para todos os txt do about  
+*/
+body{
+    font-family: Poppins;
+    text-align: justify;
+}
+
+
+/* Div principal mãe de todas 
+*/
+.About{
+    margin: auto;
+    width: 50%;
+}
+
+/* A caixa de texto estilizada 
+*/
+.Box{
+    background: rgba(106, 129, 186, 0.26);
+    height: 18vh;
+    align-self: center;
+}
+
+/* Div container da Box, possui uma borda retangular a esquerda 
+*/
+.RectAux{
+    border-left: solid #0E389C;
+    border-width: 20vh 0.5vw;
+    height: 20vh;
+    display: flex;
+}
+
+
+
+/* Titulo estilizado 
+*/
+.AboutTitle{
+    margin: auto;
+    font-size: 2rem;
+    color: #FFFFFF;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 1vw;
+}
+
+/* Div para o background do titulo 
+*/
+#Rectangle{
+    margin: auto; 
+    margin-top: 10vh;
+    background: #0E389C;
+    width: 50%;
+    align-items: center;
+    
+}
+
+/* Style do texto 
+*/
+p{
+    font-size: 1.2rem;
+}
+
+/* Style da imagem 
+*/
+img{
+    width: 100%;
+    height: auto;
+    margin-top: 5vh;
+}
+
+/* Texto dentro da Box estilizada 
+*/
+h2{
+    font-size: 1.12rem;
+    font-weight: normal;
+    font-style: italic;
+    padding-top: 1vh;
+    padding-left: 5vh;
+    padding-right: 3vh;
+    padding-bottom: 3vh;
+}
+
+
+/* Texto abaixo da imagem 
+*/
+#SubTitle {
+    font-size: 0.8rem;
+}
