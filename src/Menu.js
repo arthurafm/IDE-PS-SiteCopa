@@ -3,7 +3,7 @@ import './Menu.css'
 // Função Menu de navegação em formato de "unordered list" 
 function Menu() {
     return (
-        <nav className="Menu" id="Home">
+        <nav className="Menu">
             <ul className="Menu--options">
                 <li><a href="#Home">HOME</a></li>
                 <li><a href="#About">SOBRE</a></li>

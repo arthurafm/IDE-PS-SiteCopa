@@ -3,7 +3,7 @@ import './Cover.css'
 // Div do Cover estilizada no Cover.css
 function Cover() {
     return(
-    <div className='Cover' >
+    <div className='Cover'  id="Home">
             <h1 className='CoverTitle'>Seleção Brasileira <br/>de Futebol</h1>
     </div>
     )
