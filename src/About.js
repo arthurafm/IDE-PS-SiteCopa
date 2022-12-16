@@ -3,7 +3,7 @@ import arquibancada from "./images/arquibancada-image.png";
 
 function About() {
     return(
-    <div className='About'>
+    <div className='About' id="About">
         <div id='Rectangle'><h1 className='AboutTitle'>SOBRE A SELEÇÃO</h1></div>
         
         <p>

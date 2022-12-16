@@ -6,7 +6,7 @@ import GFA from './images/GFA-logo.png'
 
 function NextGames() {
     return (
-        <article className="NextGames">
+        <article className="NextGames" id="Games">
             <h2 className="NextGames--title">PRÓXIMOS JOGOS</h2>
             <section className="NextGames--CBF-x-JFA">
                 <div className="NextGames--Card--upper">
