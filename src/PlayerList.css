@@ -42,18 +42,15 @@ body {
 	font-size: 21px;
 }
 .itens {
-	color: #ccc;
+	color: #fff;
 	margin-right: 4vw;
 	cursor: pointer;
+	font-weight: 400;
 }
 
 .PlayersList--MenuItens li:hover {
-	color: #fff;
+	font-weight: 700;
 }
-.active {
-	color: #fff;
-}
-
 .PlayersList--container:nth-child(even) {
 	color: #0e389c;
 	background-color: #eeeeee;
