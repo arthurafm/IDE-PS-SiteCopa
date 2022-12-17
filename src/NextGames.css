@@ -1,3 +1,4 @@
+/* Container principal da div */
 .NextGames {
     background-color: #0E389C;
     width: 100%;
@@ -7,6 +8,7 @@
     text-align: center;
 }
 
+/* Título principal */
 .NextGames--title {
     font-size: 20px;
     font-weight: 700;
@@ -14,6 +16,7 @@
     padding-bottom: 2%;
 }
 
+/* Container da card */
 .NextGames > section {
     border-radius: 25px;
     background: linear-gradient(#FFD200 60%, #079A5A 60%);
@@ -22,6 +25,7 @@
     margin-bottom: 1%;
 }
 
+/* Parte superior do card */
 .NextGames--Card-upper {
     height: 116px;
     width: 415px;
@@ -30,6 +34,7 @@
     justify-content: center;
 }
 
+/* Bloco do card superior */
 .NextGames--Card-upper > img, p {
     display: inline-block;
     vertical-align: middle;
@@ -38,16 +43,9 @@
     top: 5px;
 }
 
+/* "x" do card */
 .NextGames--X {
     font-size: 31px;
-}
-
-.NextGames--CBF-logo, .NextGames--JFA-logo, .NextGames--KFA-logo, .NextGames--GFA-logo {
-    position: relative;
-    top: 13px;
-}
-
-.NextGames--Card--upper > p {
     color: #0E389C;
     font-weight: 600;
     font-size: 31px;
@@ -55,6 +53,13 @@
     padding-right: 7%;
 }
 
+/* Imagens do card */
+.NextGames--CBF-logo, .NextGames--JFA-logo, .NextGames--KFA-logo, .NextGames--GFA-logo {
+    position: relative;
+    top: 13px;
+}
+
+/* Texto no card inferior */
 .NextGames--Card--lower > p {
     vertical-align: center;
 }
@@ -67,6 +72,7 @@
     font-size: 14px;
 }
 
+/* Resolução das imagens */
 .NextGames--CBF-logo {
     height: 86px;
     width: 99px;

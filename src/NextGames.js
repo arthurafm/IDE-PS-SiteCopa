@@ -21,7 +21,7 @@ function NextGames() {
             <section className="NextGames--CBF-x-KFA">
                 <div className="NextGames--Card--upper">
                     <img className="NextGames--CBF-logo" src={CBF} alt="Logo da CBF" />
-                    <p>x</p>
+                    <p className="NextGames--X">x</p>
                     <img className="NextGames--KFA-logo" src={KFA} alt="Logo da KFA"/>
                 </div>
                 <div className="NextGames--Card--lower">
@@ -31,7 +31,7 @@ function NextGames() {
             <section className="NextGames--CBF-x-GFA">
                 <div className="NextGames--Card--upper">
                     <img className="NextGames--CBF-logo" src={CBF} alt="Logo da CBF" />
-                    <p>x</p>
+                    <p className="NextGames--X">x</p>
                     <img className="NextGames--GFA-logo" src={GFA} alt="Logo da GFA"/>
                 </div>
                 <div className="NextGames--Card--lower">
