@@ -41,15 +41,15 @@ const goleiros = [
 
 const PlayerComponent = (props) => {
 	return (
-		<div className="container">
-			<div className="player-info">
-				<div className="photo"></div>
-				<div>
+		<div className="PlayersList--container">
+			<div className="PlayersList--player-info">
+				<div className="PlayersList--photo"></div>
+				<div className="PlayersList--player-info-text">
 					<h2>{props.name}</h2>
 					<p>Idade: {props.age}</p>
 				</div>
 			</div>
-			<h1 className="Symbol">J</h1>
+			<h1 className="PlayersList--Symbol">J</h1>
 		</div>
 	);
 };
@@ -59,11 +59,11 @@ const PlayerList = (props) => {
 
 	return (
 		<div id="Players" className="PlayerList">
-			<div id="Rectangle">
-				<h1 className="AboutTitle">{props.title}</h1>
+			<div id="PlayersList--Rectangle">
+				<h1 className="PlayersList--AboutTitle">{props.title}</h1>
 			</div>
-			<nav className="Menu1">
-				<ul className="MenuItens">
+			<nav className="PlayersList--Menu1">
+				<ul className="PlayersList--MenuItens">
 					<li
 						onClick={(e) => {
 							setnumPlayer(atacantes);

@@ -12,7 +12,7 @@ function App() {
       <Menu />
       <Cover />
       <About />
-      <PlayerList id="id--Players" />
+      <PlayerList title="JOGADORES" />
       <NextGames />
       <Footer />
     </div>

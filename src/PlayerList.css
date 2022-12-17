@@ -9,8 +9,8 @@ body {
 	align-items: center;
 	justify-content: center;
 }
-.AboutTitle,
-.Menu1 {
+.PlayersList--AboutTitle,
+.PlayersList--Menu1 {
 	margin: auto;
 	font-size: 2em;
 	color: #fff;
@@ -18,14 +18,14 @@ body {
 	text-overflow: ellipsis;
 	padding-left: 1vw;
 }
-#Rectangle {
+#PlayersList--Rectangle {
 	display: flex;
 	margin-top: 10vh;
 	background: #0e389c;
 	width: 25vw;
 	align-items: center;
 }
-.Menu1 {
+.PlayersList--Menu1 {
 	margin-top: 10vh;
 	background: #0e389c;
 	display: flex;
@@ -34,7 +34,7 @@ body {
 	width: 70vw;
 	height: 7vh;
 }
-.MenuItens {
+.PlayersList--MenuItens {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -47,24 +47,24 @@ body {
 	cursor: pointer;
 }
 
-.MenuItens li:hover {
+.PlayersList--MenuItens li:hover {
 	color: #fff;
 }
 .active {
 	color: #fff;
 }
 
-.container:nth-child(even) {
+.PlayersList--container:nth-child(even) {
 	color: #0e389c;
 	background-color: #eeeeee;
 }
-.container:nth-child(even) .photo {
+.PlayersList--container:nth-child(even) .PlayersList--photo {
 	border-top: 6px solid #0e389c;
 }
-.container:nth-child(even) .Symbol {
+.PlayersList--container:nth-child(even) .PlayersList--Symbol {
 	background-color: #0e389c;
 }
-.container {
+.PlayersList--container {
 	margin-top: 2vh;
 	width: 65vw;
 	display: flex;
@@ -73,32 +73,32 @@ body {
 	color: #079a5a;
 	margin-bottom: 2vh;
 }
-.container h2 {
+.PlayersList--container h2 {
 	font-size: 21px;
 	font-style: normal;
 }
-.container p {
+.PlayersList--container p {
 	font-size: 17px;
 }
-.photo {
+.PlayersList--photo {
 	height: 80px;
 	width: 80px;
 	background-color: #ccc;
 	border-top: 6px solid #079a5a;
 }
 
-.player-info {
+.PlayersList--player-info {
 	display: flex;
 	align-items: center;
-	justify-items: center;
+	/* justify-items: center; */
+	justify-content: space-between;
 }
-.player-info div {
+.PlayersList--player-info-text {
 	display: flex;
-
 	flex-direction: column;
 	align-items: center;
 }
-.Symbol {
+.PlayersList--Symbol {
 	display: flex;
 	align-items: center;
 	justify-content: center;
