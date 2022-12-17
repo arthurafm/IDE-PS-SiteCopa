@@ -10,6 +10,7 @@
     position: fixed;
     top: 0;
     z-index: 2;
+    max-height: 42px;
 }
 
 /*  <ul> do Menu de navegação
@@ -25,13 +26,15 @@
     color: #F7F5F2;
     align-items: center;
     text-align: center;
+    max-height: 42px;
 }
 
 /*  <li> particulares do <ul> do Menu de navegação
     Setando espaçamento
 */
 .Menu--options > li {
-    padding: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     max-height: 42px;
 }
 
