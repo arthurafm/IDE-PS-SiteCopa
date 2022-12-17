@@ -8,7 +8,6 @@
     height: 110vh;
     background-repeat: no-repeat;
     background-size: cover;
-    /* flex-direction: column; */
 }
 
 /* Style do texto que sobrepõe a imagem 
@@ -27,6 +26,7 @@
     max-height: 24vh;
     left: auto;
     right: auto;
+    margin-left: 5vw;
 }
 
 /* Filtro / Gradiente aplicado a Div  
@@ -34,42 +34,5 @@
 .Cover::after { 
     content: "";
     width: 100%;
-    /* height: 50%;
-    position: absolute;
-    bottom: 0; */
     background-image: linear-gradient(to bottom, rgba(32, 25, 95, 0), rgba(32, 25, 95, 0.1), rgba(32, 25, 95, 0.2), rgba(32, 25, 95, 1) );
 }
-
-/*  */
-/* .CoverLogos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: space-between;
-    
-    width: 100%;
-
-} */
-
-/*  */
-/* .VersusSymbol{
-    color: aliceblue;
-
-} */
-
-/*  */
-/* .LogoBrazil{
-    height: 84px;
-    width: 50.94px;
-
-} */
-
-/*  */
-/* .LogoIDE{
-    height: 73px;
-    width: 97.89px;
-
-} */
-
-
-
