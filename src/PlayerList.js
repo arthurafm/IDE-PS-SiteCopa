@@ -45,8 +45,8 @@ const PlayerComponent = (props) => {
 			<div className="PlayersList--player-info">
 				<div className="PlayersList--photo"></div>
 				<div className="PlayersList--player-info-text">
-					<h2>{props.name}</h2>
-					<p>Idade: {props.age}</p>
+					<h2 className="PlayersList--player-info-name">{props.name}</h2>
+					<p className="PlayersList--player-info-age">Idade: {props.age}</p>
 				</div>
 			</div>
 			<h1 className="PlayersList--Symbol">J</h1>
