@@ -73,13 +73,13 @@ body {
 	color: #079a5a;
 	margin-bottom: 2vh;
 }
-.PlayersList--container h2 {
+/* .PlayersList--container h2 {
 	font-size: 21px;
 	font-style: normal;
 }
 .PlayersList--container p {
 	font-size: 17px;
-}
+} */
 .PlayersList--photo {
 	height: 80px;
 	width: 80px;
@@ -111,6 +111,12 @@ body {
 	margin-right: 3vw;
 }
 
-.PlayersList--player-info-name {
-	top: 20px;
+.PlayersList--player-info-text {
+	font-size: 20px;
 }
+
+.PlayersList--player-info-name {
+	font-weight: 700;
+	font-style: normal;
+}
+
