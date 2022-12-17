@@ -8,6 +8,7 @@
     height: 110vh;
     background-repeat: no-repeat;
     background-size: cover;
+    flex-direction: column;
 }
 
 /* Style do texto que sobrepõe a imagem 
@@ -34,5 +35,48 @@
 .Cover::after { 
     content: "";
     width: 100%;
+    height: 100%;
+    
     background-image: linear-gradient(to bottom, rgba(32, 25, 95, 0), rgba(32, 25, 95, 0.1), rgba(32, 25, 95, 0.2), rgba(32, 25, 95, 1) );
 }
+
+/* Container com display flex/row para as logos */
+.CoverLogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    width: 100%;
+    margin-top: 1.5vh;
+
+}
+
+/* Simbolo de "Versus / X" estilizado */
+.VersusSymbol{
+    color: aliceblue;
+    margin-right: 4vh;    
+    margin-left: 4vh;
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    line-height: 10vh;
+}
+
+/* Style do logo do Brasil */
+.LogoBrazil{
+    height: 16vh;
+    width: 9.7vh;
+    /*Proporção da imagem: 1,64899882 */
+
+}
+
+/* Style do logo da IDE */
+.LogoIDE{
+    height: 13.91vh;
+    width: 18.65vh;
+    /*Proporção da imagem: 0,745735 */
+
+}
+
+
+
