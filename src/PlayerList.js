@@ -58,7 +58,7 @@ const PlayerList = (props) => {
 	const [numPlayer, setnumPlayer] = useState(atacantes);
 
 	return (
-		<div className="PlayerList">
+		<div id="Players" className="PlayerList">
 			<div id="Rectangle">
 				<h1 className="AboutTitle">{props.title}</h1>
 			</div>

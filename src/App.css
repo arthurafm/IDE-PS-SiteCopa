@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.Cover, .About, .NextGames, .PlayerList {
+  padding-top: 42px;
+}

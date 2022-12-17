@@ -98,11 +98,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 }
-.player-info div h2,
-p {
-	padding-bottom: 0;
-	margin: 0;
-}
 .Symbol {
 	display: flex;
 	align-items: center;
