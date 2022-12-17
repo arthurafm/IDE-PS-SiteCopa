@@ -1,7 +1,6 @@
 /* Style da div para o background e seu tamanho 
 */
 .Cover {
-    margin-top: 42px;
     display: flex;
     background-image: url('./images/canarinho-background.png');
     width: 100%;

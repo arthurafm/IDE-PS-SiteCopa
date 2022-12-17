@@ -42,3 +42,7 @@
     color:#F7F5F2;
     text-decoration: none;
 }
+
+.Cover, .About, .NextGames {
+    padding-top: 42px;
+}

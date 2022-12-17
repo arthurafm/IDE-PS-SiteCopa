@@ -43,7 +43,7 @@
 #Rectangle{
     display: flex;
     margin: auto; 
-    margin-top: 10vh;
+    margin-top: 2vh;
     background: #0E389C;
     width: 50%;
     align-items: center;
@@ -55,6 +55,7 @@
 */
 #PrimaryText{
     font-size: 1.2rem;
+    margin-top: 2vh;
 }
 
 /* Style da imagem 
