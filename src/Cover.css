@@ -1,12 +1,14 @@
 /* Style da div para o background e seu tamanho 
 */
 .Cover {
+    margin-top: 42px;
     display: flex;
     background-image: url('./images/canarinho-background.png');
     width: 100%;
     height: 110vh;
     background-repeat: no-repeat;
     background-size: cover;
+    /* flex-direction: column; */
 }
 
 /* Style do texto que sobrepõe a imagem 
@@ -15,7 +17,6 @@
     font-size: 5rem;
     color: aliceblue;
     text-align: left;
-    margin-left: 5%;
     word-break: normal;
     position: absolute;
     top: 85%;
@@ -23,6 +24,9 @@
     margin-top: 0;
     font-family: Poppins;
     line-height: 12vh;
+    max-height: 24vh;
+    left: auto;
+    right: auto;
 }
 
 /* Filtro / Gradiente aplicado a Div  
@@ -30,5 +34,42 @@
 .Cover::after { 
     content: "";
     width: 100%;
+    /* height: 50%;
+    position: absolute;
+    bottom: 0; */
     background-image: linear-gradient(to bottom, rgba(32, 25, 95, 0), rgba(32, 25, 95, 0.1), rgba(32, 25, 95, 0.2), rgba(32, 25, 95, 1) );
 }
+
+/*  */
+/* .CoverLogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    
+    width: 100%;
+
+} */
+
+/*  */
+/* .VersusSymbol{
+    color: aliceblue;
+
+} */
+
+/*  */
+/* .LogoBrazil{
+    height: 84px;
+    width: 50.94px;
+
+} */
+
+/*  */
+/* .LogoIDE{
+    height: 73px;
+    width: 97.89px;
+
+} */
+
+
+

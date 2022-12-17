@@ -1,25 +1,23 @@
-/* Aplica fonte e text justify para todos os txt do about  
-*/
-body{
-    font-family: Poppins;
-    text-align: justify;
-}
-
-
 /* Div principal mãe de todas 
 */
 .About{
     margin: auto;
     width: 50%;
+    font-family: Poppins;
+    text-align: justify;
 }
 
-/* A caixa de texto estilizada 
+/* Titulo estilizado 
 */
-.Box{
-    background: rgba(106, 129, 186, 0.26);
-    height: 18vh;
-    align-self: center;
+.AboutTitle{
+    margin: auto;
+    font-size: 2rem;
+    color: #FFFFFF;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    justify-content: center;
 }
+
 
 /* Div container da Box, possui uma borda retangular a esquerda 
 */
@@ -30,39 +28,38 @@ body{
     display: flex;
 }
 
-
-
-/* Titulo estilizado 
+/* A caixa de texto estilizada 
 */
-.AboutTitle{
-    margin: auto;
-    font-size: 2rem;
-    color: #FFFFFF;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    padding-left: 1vw;
+.Box{
+    background: rgba(106, 129, 186, 0.26);
+    height: 18vh;
+    align-self: center;
 }
+
+
 
 /* Div para o background do titulo 
 */
 #Rectangle{
+    display: flex;
     margin: auto; 
     margin-top: 10vh;
     background: #0E389C;
     width: 50%;
     align-items: center;
     
+    
 }
 
 /* Style do texto 
 */
-p{
+#PrimaryText{
     font-size: 1.2rem;
 }
 
 /* Style da imagem 
 */
-img{
+#AboutImage{
     width: 100%;
     height: auto;
     margin-top: 5vh;
@@ -70,7 +67,7 @@ img{
 
 /* Texto dentro da Box estilizada 
 */
-h2{
+#BoxTxt{
     font-size: 1.12rem;
     font-weight: normal;
     font-style: italic;
@@ -84,5 +81,19 @@ h2{
 /* Texto abaixo da imagem 
 */
 #SubTitle {
-    font-size: 0.8rem;
+    font-size: 1rem;
+}
+
+/*  Criterio para melhorar layout em dispositivos de menor resolução  
+(Mais especificamente iPad Air)
+*/
+@media screen and (max-width: 820px){
+    .AboutTitle{
+        font-size: 2rem;
+        white-space: break-spaces;
+        text-overflow: ellipsis;
+        justify-content: center;
+        line-height: 3vh;
+        text-align: center;
+    }
 }
